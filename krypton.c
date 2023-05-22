@@ -24,7 +24,7 @@ int main(int argc, char *argv[]){
 	}
 	if (strcmp("hash", argv[1])==0){
 		if (argc<4){
-			printf("krypton 320 bit hashing algorithm");
+			printf("*** krypton 320 bit hashing algorithm ***\n");
 			printf("options: hash\n");
 			printf("usage: ./krypton hash <PLAINTEXT_FILE> <KEY_FILE>\n");
 			printf("hashes the input file with the keygen");
