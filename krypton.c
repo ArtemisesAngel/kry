@@ -27,6 +27,8 @@ int main(int argc, char *argv[]){
 			printf("krypton 320 bit hashing algorithm");
 			printf("options: hash\n");
 			printf("usage: ./krypton hash <PLAINTEXT_FILE> <KEY_FILE>\n");
+			printf("hashes the input file with the keygen");
+			return 0;
 		}
 		FILE * plaintext_fp;
 		plaintext_fp = fopen(argv[2], "r"); //plaintext file
@@ -46,6 +48,13 @@ int main(int argc, char *argv[]){
 		}
 	}
 	else if (strcmp("genkey", argv[1])==0){
+		if (argc<3){
+			printf("krypton 320 bit hashing algorithm");
+			printf("options: keygen\n");
+			printf("usage: ./krypton hgenkey <OUTPUT_FILE>\n");
+			printf("generates a key for hashing\n");
+			return 0;
+		}
 		FILE *key_fp;
 		key_fp = fopen(argv[2], "w");
 		char key_buf[40];
