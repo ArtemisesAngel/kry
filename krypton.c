@@ -5,7 +5,7 @@
 
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*\
 @@       ------Krypton hashing algorithm------      @@
-@@           programmed by ArtemisesAngel           @@
+@@             programmed by LordOfTheIoT           @@
 @@                                                  @@
 @@    no license, steal the code for all I care     @@
 @@          algorithm designed by n0tA1dan          @@
